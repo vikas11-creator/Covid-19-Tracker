@@ -1,0 +1,47 @@
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: white;
+}
+.carousel-item {
+  height: 330px;
+}
+.carousel-indicators {
+  bottom: -23px;
+  
+}
+.height{
+  height: 200px;
+}
+
+.news {
+  height: 200px;
+  background-color: wheat;
+}
+.height-news{
+  height: 120px;
+  width: 150px;
+  margin-top: 26px;
+}
+.text{
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    margin-left: -32px;
+  /* max-width: 400px; */
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
+.text-p{
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+  margin-left: -32px;
+/* max-width: 400px; */
+  display: -webkit-box;
+  -webkit-line-clamp: 5; 
+  -webkit-box-orient: vertical;
+}
+

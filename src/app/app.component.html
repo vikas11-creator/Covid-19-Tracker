@@ -1,0 +1,31 @@
+<div class=" pt-5 pb-5 pl-5 pr-5" style="background-color: #DAD7D7;">
+  <div class="row rounded-lg"  >
+    <div class="col-md-1 sidebar rounded">
+      <img src="../assets//images//coronavirus.png" alt="" class="image mt-3 mb-3" >
+      <div *ngFor="let data of sidebarModel" >
+        <div align="center" class="hover">
+          <i class="icon" [class]='data.icon'> </i>
+          <p class="small">{{data.name}}</p>
+        </div>
+      </div>
+  
+  
+  
+    </div>
+  
+  
+    <div class="col-md-8 " style="background-color: white;">
+      <app-content></app-content>
+    </div>
+    <div class="col-md-3 rounded bg-white">
+      <app-adds ></app-adds>
+    </div>
+  
+  </div>
+  <app-sidebar></app-sidebar>
+</div>
+
+
+
+
+

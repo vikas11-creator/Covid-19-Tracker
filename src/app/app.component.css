@@ -1,0 +1,32 @@
+.clas{
+  white-space: nowrap;
+  text-align: justify;
+ 
+}
+.hover:hover{
+  background-color: white;
+  color: #1a1053;
+  
+
+
+}
+.hover{
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-left: -20%;
+  margin-right: -20%;
+}
+.image{
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+}
+.icon{
+ font-size: 25px;
+}
+.sidebar{
+  background-color: #1a1053;
+  height: 1000px;
+  color: white;
+}

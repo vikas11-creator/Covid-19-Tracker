@@ -1,0 +1,56 @@
+<div class="style">
+    <div class="p-3 lead"><span style="font-weight: 800; color: #6236ff;">Covid-19 </span><span
+            style="font-weight: 500;">&nbsp;&nbsp; Global trend</span></div>
+    <app-dashboard [dashboardCovidModel]='cstructur'></app-dashboard>
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="row">
+        <div class="col-md-4 bg-white ">
+            <form class="example form-group text-center" action="/action_page.php" style="margin-left: 34px;">
+                <input type="text"  class="form-control form-control-md  no-border" #search (keyup)="filterData(search.value)" placeholder="Search country" name="search2">
+                   
+            </form>
+
+
+            <div class="row scrollbar" >
+                <div class="col-md-4 text-dark">
+                    <ul class="ul">
+                        <li *ngFor="let c of getCApi" class="small font-weight-bold">{{c['infected'] | number:'1.0':'en-US'}}</li>
+                    </ul>
+                </div>
+                <div class="col-md-8">
+                    <ul class="ul">
+                        <li *ngFor="let c of getCApi" class="small text-secondary">{{c['country']}}</li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+
+         
+
+
+        </div>
+        <div class="col-md-8">
+            <google-chart [title]="myTitle" [type]="chartType" [data]="mydata" [columns]="chartColumns" [options]="chartOption">
+            </google-chart>
+        </div>
+    </div>
+</div>
