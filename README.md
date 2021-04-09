@@ -16,4 +16,4 @@ Global API: https://api.apify.com/v2/key-value-stores/toDWvRj1JpTXiM8FF/records/
 Country Specific API:  https://api.apify.com/v2/key-value-stores/tVaYRsPHLjNdNBu7S/records/LATEST?disableRedirect=true 
 
 ##Output
-![Angular COVID-19 Tracker](/ss/ss1.png)
+![Angular COVID-19 Tracker](./ss1.png)
